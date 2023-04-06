@@ -1,0 +1,46 @@
+{
+    "title": "Longlong's home",
+    "description": "永远二十赶朝暮",
+    "keywords": "Longlong's home",
+    "author": "Longlong",
+    "logo_img": "./img/icon/logo.png",
+    "logo_text_1": "Longlong",
+    "logo_text_2": "cn",
+    "github": "Longlong",
+    "qq": "2298775378",
+    "email": "2298775378@qq.com",
+    "bilibili": "525790234",
+    "telegram": "ericici",
+    "link_1": [
+        "https://www.xlonglong.cn/",
+        "fa-solid fa-blog",
+        "博客"
+    ],
+    "link_2": [
+        "https://run.xlonglong.cn/",
+        "fa-solid fa-cloud",
+        "Running-page"
+    ],
+    "link_3": [
+        "https://music.163.com/#/user/home?id=428000293",
+        "fa-solid fa-music",
+        "网易云主页"
+    ],
+    "link_4": [
+        "https://b.slass.cc/",
+        "fa-solid fa-wand-magic-sparkles",
+        "我的项目(待开发)"
+    ],
+    "link_5": [
+        "/",
+        "fa-solid fa-book-bookmark",
+        "待开发"
+    ],
+    "link_6": [
+        "/",
+        "fa-solid fa-flask",
+        "待开发"
+    ],
+    "Copyright_text": "Longlong",
+    "beian": ""
+}
