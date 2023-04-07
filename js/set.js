@@ -31,6 +31,7 @@ $(function () {
             $('#email').attr('href', "mailto:" + data.email);
             $('#bilibili').attr('href', "https://space.bilibili.com/" + data.bilibili);
             $('#telegram').attr('href', "https://t.me/" + data.telegram);
+            $('#zhihu').attr('href', "https://www.zhihu.com/people/" + data.zhihu);
             /* 快捷链接 */
             $('#link-url-1').attr('href', data.link_1[0]);
             $('#link-icon-1').attr('class', data.link_1[1]);

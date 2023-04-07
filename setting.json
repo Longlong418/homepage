@@ -3,14 +3,16 @@
     "description": "永远二十赶朝暮",
     "keywords": "Longlong's home",
     "author": "Longlong",
-    "logo_img": "./img/icon/logo.png",
+    "logo_img": "./img/icon/logo.jpg",
     "logo_text_1": "Longlong",
     "logo_text_2": "cn",
-    "github": "Longlong",
+    "github": "Longlong418",
     "qq": "2298775378",
     "email": "2298775378@qq.com",
     "bilibili": "525790234",
-    "telegram": "ericici",
+    "telegram": "",
+    "zhihu":"qie-mi-zhe-feng-lang-zhu",
+    
     "link_1": [
         "https://www.xlonglong.cn/",
         "fa-solid fa-blog",
@@ -27,7 +29,7 @@
         "网易云主页"
     ],
     "link_4": [
-        "https://b.slass.cc/",
+        "/",
         "fa-solid fa-wand-magic-sparkles",
         "我的项目(待开发)"
     ],

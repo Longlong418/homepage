@@ -258,6 +258,11 @@ $("#bilibili").mouseover(function () {
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
+$("#zhihu").mouseover(function () {
+    $("#link-text").html("知乎主页");
+}).mouseout(function () {
+    $("#link-text").html("通过这里联系我");
+});
 $("#telegram").mouseover(function () {
     $("#link-text").html("你懂的 ~");
 }).mouseout(function () {
