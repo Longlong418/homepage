@@ -95,7 +95,7 @@ function setBgImgInit() {
     switch (bg_img["type"]) {
         case "1":
             // $('#bg').attr('src', `./img/background${1 + ~~(Math.random() * 10)}.webp`) //随机默认壁纸
-            $('#bg').attr('src', `./img/bg_${Math.floor(Math.random() * 6) + 1}.png`);
+            $('#bg').attr('src', `./img/bg_${Math.floor(Math.random() * 6) + 1}.webp`);
 
             break;
         // case "2":
