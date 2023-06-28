@@ -662,8 +662,8 @@ i.iconfont.icon-z_shangpinheji {
 
 /*更多页面*/
 .box-left {
-    flex: 0 44%;
-    min-width: 400px;
+    flex: 44% 44%;
+    min-width: 2000px;
 }
 
 .box {

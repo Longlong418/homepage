@@ -53,7 +53,7 @@ $(function () {
             $('#link-name-6').html(data.link_6[2]);
             //页脚版权
             $('#power-text').html(data.Copyright_text);
-            $('#beian').html("&amp;&nbsp;" + data.beian);
+            $('#beian').html("&amp;&nbsp;冀ICP备2023023825号" + data.beian);
         }
     )
 });
@@ -82,29 +82,31 @@ function getBgImg() {
 
 let bg_img_preinstall = {
     "type": "1", // 1:默认背景 2:每日一图 3:随机风景 4:随机动漫
-    "2": "https://api.dujin.org/bing/1920.php", // 每日一图
-    "3": "https://api.ixiaowai.cn/gqapi/gqapi.php", // 随机风景
-    "4": "https://api.ixiaowai.cn/api/api.php" // 随机动漫
+    // "2": "https://api.dujin.org/bing/1920.php", // 每日一图
+    // "3": "https://api.ixiaowai.cn/gqapi/gqapi.php", // 随机风景
+    // "4": "https://api.ixiaowai.cn/api/api.php" // 随机动漫
 };
 
 // 更改背景图片
 function setBgImgInit() {
     let bg_img = getBgImg();
-    $("input[name='wallpaper-type'][value=" + bg_img["type"] + "]").click();
-
+    // $("input[name='wallpaper-type'][value=" + bg_img["type"] + "]").click();
+    bg_img["type"]="1";
     switch (bg_img["type"]) {
         case "1":
-            $('#bg').attr('src', `./img/background${1 + ~~(Math.random() * 10)}.webp`) //随机默认壁纸
+            // $('#bg').attr('src', `./img/background${1 + ~~(Math.random() * 10)}.webp`) //随机默认壁纸
+            $('#bg').attr('src', `./img/bg_${Math.floor(Math.random() * 6) + 1}.png`);
+
             break;
-        case "2":
-            $('#bg').attr('src', bg_img_preinstall[2]); //必应每日
-            break;
-        case "3":
-            $('#bg').attr('src', bg_img_preinstall[3]); //随机风景
-            break;
-        case "4":
-            $('#bg').attr('src', bg_img_preinstall[4]); //随机动漫
-            break;
+        // case "2":
+        //     $('#bg').attr('src', bg_img_preinstall[2]); //必应每日
+        //     break;
+        // case "3":
+        //     $('#bg').attr('src', bg_img_preinstall[3]); //随机风景
+        //     break;
+        // case "4":
+        //     $('#bg').attr('src', bg_img_preinstall[4]); //随机动漫
+        //     break;
     }
 };
 
