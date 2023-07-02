@@ -1,5 +1,5 @@
 {
-    "title": "Longlong's home",
+    "title": "Longlong的基地",
     "description": "永远二十赶朝暮",
     "keywords": "Longlong's home",
     "author": "Longlong",
@@ -14,7 +14,7 @@
     "zhihu":"qie-mi-zhe-feng-lang-zhu",
     
     "link_1": [
-        "https://www.xlonglong.cn/",
+        "https://blog.xlonglong.cn/",
         "fa-solid fa-blog",
         "博客"
     ],
@@ -34,9 +34,9 @@
         "我的项目(待开发)"
     ],
     "link_5": [
-        "/",
+        "https://chat.xlonglong.cn/",
         "fa-solid fa-book-bookmark",
-        "待开发"
+        "gpt镜像"
     ],
     "link_6": [
         "/",
